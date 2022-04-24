@@ -1,3 +1,4 @@
+# renovate: datasource=github-releases depName=grafana/grafana-image-renderer
 IMAGE_RENDERER_VERSION ?= v3.4.2
 
 TAG := $(shell git describe --tags --always --dirty)
